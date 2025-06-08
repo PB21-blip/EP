@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galería de imágenes adaptativas y SVG">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="icon" href="../img/favicon.ico">
+  <title>Galería</title>
+</head>
+<body>
+  <header>
+    <h1>Galería</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Imágenes Adaptativas</h2>
+      <picture>
+        <source srcset="imagenes\ecd63c35-7539-40a1-80b5-09e62786a07b.jpg" media="(min-width: 800px)">
+        <source srcset="imagenes\ecd63c35-7539-40a1-80b5-09e62786a07b.jpg" media="(min-width: 500px)">
+        <img src="imagenes\ecd63c35-7539-40a1-80b5-09e62786a07b.jpg" alt="Imagen adaptativa">
+      </picture>
+    </section>
+    <section>
+      <h2>Animación SVG</h2>
+      <object type="image/svg+xml" data="imagenes\apple.svg"></object>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Sitio Web JP</p>
+  </footer>
+</body>
+</html>

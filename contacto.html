@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulario de contacto y tabla informativa">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="icon" href="imagenes\009fc09a302e18d5cb0c1ecc75d728e5 (1).ico">
+  <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Formulario</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria">
+          <option value="consulta">Consulta</option>
+          <option value="comentario">Comentario</option>
+          <option value="otro">Otro</option>
+        </select>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+    <section>
+      <h2>Tabla de Contactos</h2>
+      <table>
+        <thead>
+          <tr><th>Nombre</th><th>Correo</th><th>Mensaje</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Ejemplo</td><td>ejemplo@mail.com</td><td>Hola, esto es un mensaje.</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Sitio Web JP</p>
+  </footer>
+</body>
+</html>
